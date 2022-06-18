@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="style-sheet.css">
         <title>Site pessoal</title>
     </head>
     <body>
@@ -9,7 +10,7 @@
             <!-- Os elementos de h1 até h6 são destacar titulos e 
                 o elemento h1 só pode haver 1 em cada página -->
             <h1>Matheus Gabriel</h1>
-            <img height="100px" width="100px" src="https://hermes.digitalinnovation.one/tracks/800fd098-3eef-45e9-9544-544ae396076c.png" alt="Logo do bootcamp Santander">
+            <img class="logo-site" src="https://hermes.digitalinnovation.one/tracks/800fd098-3eef-45e9-9544-544ae396076c.png" alt="Logo do bootcamp Santander">
         </header>
         <!-- O elemento "section" está indican uma lista de post-->
         <section>
@@ -19,20 +20,20 @@
                     Lista de Posts
                 </h2>
             </header>
-            <article>
+            <article class="post">
                 <header>
-                    <h3>
+                    <h3 class="post_title">
                         Post #1
                     </h3>
                 </header>
-                <p>
+                <p class="post_body">
                     Lorem ipsum dolor sit amet, <a href="https://www.linkedin.com/in/matheus-gabriel-b77ba293/" target="_blank">Perfil do linkedin</a> consectetur adipiscing elit. Nam dui nisl, convallis in nibh vitae, dignissim scelerisque lorem. In ac nisi ut eros venenatis faucibus sit amet non arcu. Nam ullamcorper, tortor id placerat sagittis, leo leo feugiat nibh, sit amet lacinia turpis lorem vitae est. Aliquam blandit malesuada euismod. In ut lobortis eros. Morbi tincidunt efficitur ligula, sed tincidunt mauris. Vivamus vitae fringilla arcu, sed finibus sem. Nullam volutpat, dolor quis vestibulum sagittis, metus urna facilisis augue, pulvinar pulvinar mauris metus ut justo. Donec vestibulum erat augue, nec facilisis dolor ornare vulputate. Suspendisse non dignissim nisl. Suspendisse ac accumsan eros, quis volutpat enim. Sed vestibulum <a href="mailto:matheusg663@gmail.com">Meu e-mail</a> tincidunt sapien, ut consectetur eros faucibus sit amet. In aliquam mollis iaculis. Integer feugiat tellus et purus tempus pretium.
-                    <img height="300px" width="auto" src="html-code.jpg" alt="Código HTML">
                 </p>
+                <img class="post-image" src="html-code.jpg" alt="Código HTML">
             </article>
         </section>
         <!-- O elemento"footer" indica que o conteudo ou elementos dentro dele ficaram no fim da página -->
-        <footer>
+        <footer class="footer-page">
             <ul>
                 <li>
                     <a href="https://www.linkedin.com/in/matheus-gabriel-b77ba293/" target="_blank">Perfil do linkedin</a>
